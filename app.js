@@ -248,12 +248,12 @@ const searchProfile = async (textSearch)=>{
 
     }
     /* init search profile */
-    await createNav()
-    /*await getSearch()
+ 
+    await getSearch()
     await wait(3000)
     const listresult = await getListSearch()
     await wait(3000)
-    await createNav(listresult)*/
+    await createNav(listresult)
 }
 
 //Comunication
