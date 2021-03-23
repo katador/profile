@@ -16,7 +16,11 @@
       "48": "./App/Image/48.png"
     }
   },
-  "permissions": ["activeTab", "scripting"],
+  "permissions": [
+    "activeTab", 
+    "scripting",
+    "history"
+  ],
   "icons": {
     "32": "./App/Image/32.png",
     "48": "./App/Image/48.png"

@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <htm>
+    <link rel="stylesheet" href="./styles.css">
     <body>
-        <button id="btnscrap" > Scrapear </button>
+        <div class="cardSearch">
+            <h3>
+            Search profile   
+            </h3>
+            <div class="searchBlock">
+                <input class="inputSearch" type="text" id="searchText">
+                <button class="btnSearch" id="btnscrap" > Scrapear </button>
+            </div>
+        </div>
+        <div id="loader">
+            <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+        </div>
     </body>
-
     <script src="./scrap.js"> </script>
 </htm>
